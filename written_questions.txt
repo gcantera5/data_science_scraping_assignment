@@ -1,0 +1,91 @@
+PART 3:
+
+Q: What do you imagine a user might expect about the privacy of their personal data on the site?
+Does the expectation of privacy vary across different sections or types of data on the site?
+
+A: Whenever a user signs up for these services there are always terms and agreements to read before
+creating an account. Not everyone takes the time to read these policies but just automatically can
+assume that personal data is being collected one way or the other. It’s not a coincidence that you
+Venmo someone for ice cream and then you get ads on Instagram for ice cream parlors in your area. 
+We are all subconsciously sharing our data even with the most “trustworthy” companies. In the case
+of Venmo, you can see the monetary value of the transaction between yourself and another user, but
+you can not see the value of transactions you are not a part of. However, if the post has been made
+public or made visible to “friends only”, one can see the description and assume the range of how
+much was deposited given the context. Unless the Venmo has been made private, everyone who has an
+account with this service has access to how you are spending your money.
+
+
+Q: Identify one vulnerable user group for whom data scientists scraping data should exercise more caution.
+
+A: Data scientists should exercise caution in scraping data from the elderly. Technology changes so fast
+and it changes everyday. Even with this current generation of youth, when we are old, we won’t be as
+capable to keep up with the technological advances as fast as we could at our current age. Unfortunately,
+it is very common for the elderly to be misled in the wrong direction and most of the time they are taken
+advantage of for their lack of knowledge and understanding. They might not know the most up to date practices
+for protecting their own privacy which is why we should be protecting their data with the utmost care. 
+
+
+Q: Describe one project or use case where scraping data from this site could cause harm. Describe one project
+or use case where scraping data from this site could be beneficial.
+
+A: Harm: A potential harmful use of scraping data from Venmo could be extracting the data from the public posts
+without the consent of the users. This is a breach of privacy that could reveal the sensitive information of
+others. This is also detrimental in the case where a transaction was meant to be private but was accidentally
+made public and if our web scraping happened to be made at this time sensitive point, then the user might think
+that their error was corrected when in reality, it is saved elsewhere where we only have access to.
+
+Beneficial: It could be beneficial to scrape data from Venmo if a user is trying to collect information for their
+financial reports. For example if a user wants to do an analysis on their spending habits, it might be beneficial
+to pull data from Venmo and then filter by key description words to identify different categories.
+
+
+Q: What types of data on the site should data scientists be especially cautious about collecting? If any, what
+types of data on the site should not be scraped by data scientists?
+
+A: Data scientists should be cautious about collecting the usernames of these Venmo transactions. This is personal
+information that should not be shared with and the username of a person should have no effect on the collection of
+their data. Instead, a data scientist should assign id values to protect the privacy of the user. It can, and should,
+collect information about the time and dates of these transactions. It could be a cool analysis to see what days of
+the week, what times, etc. have the most/least uses for the app.
+
+
+Q: Let’s think about missing data for a second. It’s important to remember that the scraped data isn’t all encompassing.
+View this artwork by Mimi Onuha: here. What kind of data may be difficult to get access to? Give one example. Why do you
+think that is? What is the impact of this missing or inaccessible data?
+
+A: Given that the monetary value of transactions not involving oneself is hidden to other users, it will be difficult to 
+scrape this information since we do not have access to this information given Venmo’s privacy regulations. In the example
+I gave earlier about wanting to run an analysis on what dates/times are the most popular to use Venmo, it could have been
+interesting to see by how much the transaction value ranges on that given information. We could extract so much information
+by scraping the data for Venmo on holidays like Christmas or Hanukkah (when people are sending money as gifts), but we could
+do further investigation if we had access to how much money was being transferred. For example, a data scientist could analyze
+how much money was transferred on Christmas versus any normal/non-holiday day of the year. 
+
+--------------------------------------------------------------------------------------------------------------------------------
+PART 4:
+
+Q: The concept of a “data economy” comes with the perspective that data is a form of economic resource and capital. To what,
+if any, standards of social responsibility should we hold researchers, companies, and other entities that use data to turn a
+profit? What price would you put on your own personal data, if any? Justify your opinion and describe which opinions you agree
+or disagree with in the article.
+
+A: As it was stated multiple times in the article, nothing in life is free- even if we think it is. Our world relies on making
+a profit no matter what it takes. The way different companies use “privacy” is not followed by its formal definition. Personal
+data is being used so that others make a profit. Companies want to collect data so that in the end, they are the ones who are
+winning- and we are the ones falling for the trap. My own personal data is priceless, but like everyone else, I am blindly
+allowing my information to be stored and sold without thinking about the consequences of my actions. I am google searching for
+different recipes so I shouldn’t be surprised when I get ads for restaurants in my area serving that dish because these are 
+targeted for me. 
+
+The article states “we are calling out the tech industry but really, it is showing us our system”. It is true- it is showing
+what our system values as a whole, but we shouldn’t deflect from the source of the problem and that circles back to the tech
+industry. Our modern world relies on the ever changing technology to keep our society functioning. It is the responsibility of 
+engineers to ensure that their products are socially responsible but the responsibility lies equally with researchers and 
+companies to ensure that the data they are extracting is ethical- it’s that extra step in between to check that makes all the 
+difference. However, the article emphasizes one’s digital footstep. Nowadays, it's almost impossible to not leave a trail behind. 
+Nothing on the internet is private. One way or another, our digital footprint circles back to us. 
+
+
+
+
+
